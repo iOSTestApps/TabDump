@@ -13,11 +13,14 @@
 
 // Controllers
 #import "DKLaunchController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 
 @implementation DKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[DKLaunchController alloc] init]];
     navigationController.view.tintColor = [UIColor td_highlightColor];

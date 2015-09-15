@@ -39,6 +39,9 @@
 		19D97A3C1934CA5700389A43 /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D97A331934CA5700389A43 /* TOActivitySafari.m */; };
 		19D97A3D1934CA5700389A43 /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D97A351934CA5700389A43 /* TOWebViewController.m */; };
 		19D97A3E1934CA5700389A43 /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D97A371934CA5700389A43 /* UIImage+TOWebViewControllerIcons.m */; };
+		30B20E04DE0BD32852530D7C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B861E2DC11CC6607DBFD4E6 /* BuddyBuildSDK.framework */; };
+		6C04EB472CE5CB940D9F7F3F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D0B10C81C2C6FB2EEBFB8 /* CoreText.framework */; };
+		B2CBA2A9864E585CFB216F35 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B18CB6FBB1548C957A09B /* CoreTelephony.framework */; };
 		CE00B9311986B558005FA106 /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE00B9301986B558005FA106 /* RTSpinKitView.m */; };
 		CE0B4036190EB92D009648D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0B4035190EB92D009648D3 /* Images.xcassets */; };
 		CE8A2D0819AFC6260055BD1D /* Afghanistan.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A2C4519AFC6260055BD1D /* Afghanistan.png */; };
@@ -278,6 +281,8 @@
 		CEEA7F0D190EC159000474E3 /* DKTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA7F05190EC159000474E3 /* DKTabCell.m */; };
 		CEEA7F0E190EC159000474E3 /* DKTabDumpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA7F07190EC159000474E3 /* DKTabDumpCell.m */; };
 		CEEC75A21921684E00187929 /* top-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEC75A11921684E00187929 /* top-left@2x.png */; };
+		ED451775CDBBA8C3B5971010 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E5B2546203384CE250EF73 /* SystemConfiguration.framework */; };
+		EF0E9E9966949C129F140A3B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A26D403735749F642B6A0A /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,6 +296,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6D0B10C81C2C6FB2EEBFB8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		19147D4C19433E780071116C /* AFOnoResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOnoResponseSerializer.h; sourceTree = "<group>"; };
 		19147D4D19433E780071116C /* AFOnoResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOnoResponseSerializer.m; sourceTree = "<group>"; };
 		19147D4F19433E780071116C /* Ono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ono.h; sourceTree = "<group>"; };
@@ -354,6 +360,9 @@
 		19D97A371934CA5700389A43 /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
 		19D97A381934CA5700389A43 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
 		19D97A391934CA5700389A43 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		3B861E2DC11CC6607DBFD4E6 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		457B18CB6FBB1548C957A09B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A1E5B2546203384CE250EF73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CE00B92F1986B558005FA106 /* RTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitView.h; sourceTree = "<group>"; };
 		CE00B9301986B558005FA106 /* RTSpinKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitView.m; sourceTree = "<group>"; };
 		CE0B4035190EB92D009648D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -622,6 +631,7 @@
 		CEEA7F06190EC159000474E3 /* DKTabDumpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTabDumpCell.h; sourceTree = "<group>"; };
 		CEEA7F07190EC159000474E3 /* DKTabDumpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTabDumpCell.m; sourceTree = "<group>"; };
 		CEEC75A11921684E00187929 /* top-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-left@2x.png"; sourceTree = "<group>"; };
+		E1A26D403735749F642B6A0A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -633,6 +643,11 @@
 				CEC7C52A1906BEF3004DF651 /* CoreGraphics.framework in Frameworks */,
 				CEC7C52C1906BEF3004DF651 /* UIKit.framework in Frameworks */,
 				CEC7C5281906BEF3004DF651 /* Foundation.framework in Frameworks */,
+				30B20E04DE0BD32852530D7C /* BuddyBuildSDK.framework in Frameworks */,
+				EF0E9E9966949C129F140A3B /* AssetsLibrary.framework in Frameworks */,
+				6C04EB472CE5CB940D9F7F3F /* CoreText.framework in Frameworks */,
+				B2CBA2A9864E585CFB216F35 /* CoreTelephony.framework in Frameworks */,
+				ED451775CDBBA8C3B5971010 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1095,6 +1110,11 @@
 				CEC7C5291906BEF3004DF651 /* CoreGraphics.framework */,
 				CEC7C52B1906BEF3004DF651 /* UIKit.framework */,
 				CEC7C5401906BEF3004DF651 /* XCTest.framework */,
+				3B861E2DC11CC6607DBFD4E6 /* BuddyBuildSDK.framework */,
+				E1A26D403735749F642B6A0A /* AssetsLibrary.framework */,
+				0F6D0B10C81C2C6FB2EEBFB8 /* CoreText.framework */,
+				457B18CB6FBB1548C957A09B /* CoreTelephony.framework */,
+				A1E5B2546203384CE250EF73 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1701,6 +1721,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabDump/support/TabDump-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1722,6 +1746,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabDump/support/TabDump-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
